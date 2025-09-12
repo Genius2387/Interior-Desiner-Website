@@ -43,7 +43,6 @@ Method 1: Direct File Opening
      # If using Git
        git clone https://github.com/Genius2387/Interior-Desiner-Website/
    
-     # Or download ZIP and extract
 
 2.  Navigate to project folder
 
