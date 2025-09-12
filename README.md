@@ -1,0 +1,1 @@
+Genius Interiors is a premium interior designing studio site created for the SpeedUp Hackathon 2025. This project highlights a fully-functional, professional, and developed website for an interior design company; a beautiful modern design, responsive design capabilities, extensive service range.
