@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Genius Designers</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <a class="navbar-brand font-playfair" href="index.html">Genius Designers</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="font-playfair text-white">Contact Us</h1>
+                    <p class="text-white">Let's discuss your project and bring your vision to life</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section-padding">
+            <div class="section-title">
+                <h2 class="font-playfair">Get In Touch</h2>
+                <p>Ready to transform your space? We'd love to hear about your project and discuss how we can help</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mb-5 mb-lg-0">
+                    <div class="contact-form-wrapper">
+                        <h3 class="mb-4">Send us a Message</h3>
+                        <form class="contact-form">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="firstName" class="form-label">First Name *</label>
+                                    <input type="text" class="form-control" id="firstName" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="lastName" class="form-label">Last Name *</label>
+                                    <input type="text" class="form-control" id="lastName" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="email" class="form-label">Email Address *</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="phone" class="form-label">Phone Number</label>
+                                    <input type="tel" class="form-control" id="phone">
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="projectType" class="form-label">Project Type</label>
+                                <select class="form-control" id="projectType">
+                                    <option value="">Select Project Type</option>
+                                    <option value="residential">Residential Design</option>
+                                    <option value="commercial">Commercial Design</option>
+                                    <option value="consultation">Design Consultation</option>
+                                    <option value="renovation">Renovation</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="budget" class="form-label">Estimated Budget</label>
+                                <select class="form-control" id="budget">
+                                    <option value="">Select Budget Range</option>
+                                    <option value="under-5">Under ₹5 Lakhs</option>
+                                    <option value="5-10">₹5 - ₹10 Lakhs</option>
+                                    <option value="10-20">₹10 - ₹20 Lakhs</option>
+                                    <option value="20-50">₹20 - ₹50 Lakhs</option>
+                                    <option value="above-50">Above ₹50 Lakhs</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="timeline" class="form-label">Preferred Timeline</label>
+                                <select class="form-control" id="timeline">
+                                    <option value="">Select Timeline</option>
+                                    <option value="asap">As soon as possible</option>
+                                    <option value="1-3-months">1-3 months</option>
+                                    <option value="3-6-months">3-6 months</option>
+                                    <option value="6-months-plus">6+ months</option>
+                                    <option value="flexible">Flexible</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Tell us about your project *</label>
+                                <textarea class="form-control" id="message" rows="5" placeholder="Describe your project, style preferences, specific requirements, or any questions you have..." required></textarea>
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="newsletter">
+                                <label class="form-check-label" for="newsletter">
+                                    I'd like to receive design tips and updates via email
+                                </label>
+                            </div>
+                            <button type="submit" class="btn-custom">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact-info">
+                        <h3 class="mb-4">Contact Information</h3>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h5>Our Studio</h5>
+                                <p>123 Design Street, Koregaon Park<br>
+                                Pune, Maharashtra 411001<br>
+                                India</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h5>Phone</h5>
+                                <p>+91 98765 43210<br>
+                                +91 20 4567 8901</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h5>Email</h5>
+                                <p>hello@luxeinteriors.com<br>
+                                info@luxeinteriors.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h5>Working Hours</h5>
+                                <p>Monday - Friday: 9:00 AM - 7:00 PM<br>
+                                Saturday: 10:00 AM - 5:00 PM<br>
+                                Sunday: By appointment only</p>
+                            </div>
+                        </div>
+
+                        <div class="social-section mt-4">
+                            <h5>Follow Us</h5>
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-pinterest"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Map Section -->
+    <div class="maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242117.70906827168!2d73.69815218538228!3d18.524870611795652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1757672028230!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>    
+
+    <!-- FAQ Section -->
+    <section class="section-padding bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="font-playfair">Frequently Asked Questions</h2>
+                <p>Quick answers to common questions about working with us</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="faq-item">
+                        <h5>How do I get started with my project?</h5>
+                        <p>Simply fill out our contact form or give us a call to schedule your initial consultation. We'll discuss your vision, requirements, and budget to determine the best approach for your project.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h5>Do you offer free consultations?</h5>
+                        <p>Yes, we offer a complimentary 30-minute initial consultation where we discuss your project goals and how we can help. Detailed design consultations are part of our paid services.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h5>What areas do you serve?</h5>
+                        <p>We primarily serve Pune and surrounding areas within a 50km radius. For exceptional projects, we're happy to discuss travel arrangements for locations further away.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h5>How quickly can you respond to inquiries?</h5>
+                        <p>We typically respond to all inquiries within 24 hours during business days. For urgent matters, please call us directly at +91 98765 43210.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h5>Can I visit your studio?</h5>
+                        <p>Absolutely! We welcome studio visits by appointment. This allows us to show you material samples, discuss your project in detail, and give you a feel for our design aesthetic.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Consultation CTA -->
+    <section class="section-padding">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="consultation-card text-center">
+                        <div class="consultation-icon mb-3">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <h3 class="font-playfair mb-3">Book Your Free Consultation</h3>
+                        <p class="lead mb-4">Ready to get started? Schedule a complimentary 30-minute consultation to discuss your project and see how we can help transform your space.</p>
+                        <div class="consultation-features">
+                            <div class="row">
+                                <div class="col-md-4 mb-3">
+                                    <div class="feature-item">
+                                        <i class="fas fa-comments"></i>
+                                        <p>Project Discussion</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="feature-item">
+                                        <i class="fas fa-lightbulb"></i>
+                                        <p>Initial Ideas</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="feature-item">
+                                        <i class="fas fa-calculator"></i>
+                                        <p>Budget Planning</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="btn-custom btn-lg">Schedule Consultation</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5 class="font-playfair">Genius Designers</h5>
+                    <p>Creating beautiful, functional spaces that inspire and delight. We transform ordinary rooms into extraordinary experiences through thoughtful design.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Services</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="services.html">Residential Design</a></li>
+                        <li><a href="services.html">Commercial Spaces</a></li>
+                        <li><a href="services.html">Furniture Selection</a></li>
+                        <li><a href="services.html">Lighting Design</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Contact Info</h5>
+                    <p><i class="fas fa-map-marker-alt me-2"></i>123 Design Street, Koregaon Park<br>Pune, Maharashtra 411001</p>
+                    <p><i class="fas fa-phone me-2"></i>+91 98765 43210</p>
+                    <p><i class="fas fa-envelope me-2"></i>hello@luxeinteriors.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Genius Designers. All rights reserved.</p>
+            </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
