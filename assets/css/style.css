@@ -99,12 +99,12 @@ body {
     margin: 30px;
 }
 
-/* .btn-custom:hover {
+.btn-custom:hover {
     background: rgb(184, 151, 95);
     color: var(--white);
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(201, 168, 118, 0.4);
-} */
+}
 
 .btn-outline-custom {
     background: transparent;
@@ -168,7 +168,7 @@ body {
 /* Main Section */
 .main-section {
     background: linear-gradient(rgba(44, 62, 80, 0.7), rgba(44, 62, 80, 0.7)), 
-                url('./page\ backgrounf\ header.avif');
+                url('../images/project1.avif');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -721,7 +721,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80');
+    background: url('../images/hall.avif');
     background-size: cover;
     background-position: center;
     opacity: 0.1;
@@ -900,7 +900,7 @@ body {
     }
     
     .footer {
-        padding: 3rem 0 1rem;
+        padding: 30px;
     }
     
     .social-links {
@@ -970,30 +970,6 @@ body {
     }
 }
 
-/* Animation Classes */
-.fade-in {
-    opacity: 0;
-    transform: translateY(30px);
-    transition: all 0.6s ease;
-}
-
-.fade-in.visible {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-/* Smooth Scrolling */
 html {
     scroll-behavior: smooth;
-}
-
-/* Selection Colors */
-::selection {
-    background: var(--secondary-color);
-    color: var(--white);
-}
-
-::-moz-selection {
-    background: var(--secondary-color);
-    color: var(--white);
 }
