@@ -11,45 +11,50 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg fixed-top">
-        <a class="navbar-brand font-playfair" href="index.html">Genius Designers</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="services.html">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="contact.html">Contact</a>
-                </li>
-            </ul>
+        <div class="container">
+            <a class="navbar-brand font-playfair" href="index.html">Genius Designers</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
     <!-- Page Header -->
-    <section class="header">
+    <section class="page-header">
+        <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
                     <h1 class="font-playfair text-white">Contact Us</h1>
                     <p class="text-white">Let's discuss your project and bring your vision to life</p>
                 </div>
             </div>
+        </div>
     </section>
 
     <!-- Contact Section -->
     <section class="section-padding">
+        <div class="container">
             <div class="section-title">
                 <h2 class="font-playfair">Get In Touch</h2>
                 <p>Ready to transform your space? We'd love to hear about your project and discuss how we can help</p>
@@ -189,12 +194,23 @@
                     </div>
                 </div>
             </div>
+        </div>
     </section>
 
     <!-- Map Section -->
-    <div class="maps">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242117.70906827168!2d73.69815218538228!3d18.524870611795652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1757672028230!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>    
+    <section class="map-section">
+        <div class="container-fluid px-0">
+            <div class="map-placeholder">
+                <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Map Location" class="img-fluid w-100">
+                <div class="map-overlay">
+                    <div class="map-info">
+                        <h4 class="text-white">Visit Our Studio</h4>
+                        <p class="text-white">123 Design Street, Koregaon Park, Pune</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- FAQ Section -->
     <section class="section-padding bg-light">
@@ -232,6 +248,7 @@
 
     <!-- Consultation CTA -->
     <section class="section-padding">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <div class="consultation-card text-center">
@@ -266,10 +283,12 @@
                     </div>
                 </div>
             </div>
+        </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-4 mb-4">
                     <h5 class="font-playfair">Genius Designers</h5>
@@ -309,6 +328,7 @@
             <div class="footer-bottom">
                 <p>&copy; 2025 Genius Designers. All rights reserved.</p>
             </div>
+        </div>
     </footer>
 
     <!-- Bootstrap JS -->
